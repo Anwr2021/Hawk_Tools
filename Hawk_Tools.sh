@@ -157,6 +157,7 @@ then
 clear
 cd $HOME
 figlet Thank you | lolcat
-
+cd $HOME 
+ls
 exit
 fi
