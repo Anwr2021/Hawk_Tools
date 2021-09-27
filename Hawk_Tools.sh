@@ -134,7 +134,8 @@ sleep 1
 clear
 cd $HOME
 figlet Done | lolcat
-rm -rf Hawk_Tools
+cd Hawk_Tools
+bash Hawk_Tools.sh
 fi
 if [ $numb = "2" ]
 then
@@ -148,13 +149,14 @@ pkg upgrade -y
 clear
 cd $HOME
 figlet Done | lolcat
-rm -rf Hawk_Tools
+cd Hawk_Tools
+bash Hawk_Tools.sh
 fi
 if [ $numb = "00" ]
 then
 clear
 cd $HOME
-figlet Done | lolcat
-rm -rf Hawk_Tools
+figlet Thank you | lolcat
+
 exit
 fi
